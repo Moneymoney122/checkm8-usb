@@ -20,7 +20,7 @@ while true;do
  
  echo "Apple, Inc. Mobile Device (DFU Mode)"
 
- #get the hour, minute, second and unix time stamp and print it
+ #fetch the hour, minute, second and unix time stamp and print it
 
  echo $(date "+%H:%M:%S" && date +%s%3N)
 
@@ -30,7 +30,7 @@ while true;do
  
  echo "Device is disconnected" 
 
- #get the hour, minute, second and unix time stamp and print it
+ #fetch the hour, minute, second and unix time stamp and print it
  
  echo $(date "+%H:%M:%S" && date +%s%3N)
 
